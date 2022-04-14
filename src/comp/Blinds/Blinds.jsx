@@ -12,9 +12,9 @@ const Blinds = ({state}) => {
         
         <div className="blinds">
         <div className="blinds__icon">
-            <img src={state == "open"? blindsOpen : blindsClose}/>
+            <img src={blinds == "open"? blindsOpen : blindsClose}/>
         </div>
-        <div class="blinds__name">
+        <div className="blinds__name">
             Žaluzie
         </div>
         <div className="blinds__controls">
